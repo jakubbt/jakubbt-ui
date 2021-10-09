@@ -17,6 +17,9 @@
   "bugs": {
     "url": "https://github.com/jakubbt/jakubbt-ui/issues"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "homepage": "https://github.com/jakubbt/jakubbt-ui#readme",
   "dependencies": {
     "node-sass": "^6.0.1",
