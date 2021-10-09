@@ -13,7 +13,7 @@
     "url": "git+https://github.com/jakubbt/jakubbt-ui.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@jakubbt:registry": "https://npm.pkg.github.com"
   },
   "author": "jakubbt",
   "license": "MIT",
