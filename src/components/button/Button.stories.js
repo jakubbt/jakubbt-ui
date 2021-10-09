@@ -1,12 +1,16 @@
-import Button from '../Button';
+import Button from '../Button'
 
 export default {
   title: 'Button',
   componen: Button,
-};
+}
 
-export const ButtonStory = () => {
+export const ButtonStory = () => {
   return (
-    <Button />
+    <>
+      <Button buttonText='This is primary button' variant='primary' />
+      <Button buttonText='This is secondary button' variant='secondary' />
+      <Button buttonText='This is dangerous button' variant='danger' />
+    </>
   )
 }
