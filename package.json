@@ -1,0 +1,35 @@
+{
+  "name": "jakubbt-ui",
+  "version": "1.0.0",
+  "description": "My first published npm package this will be.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubbt/jakubbt-ui.git"
+  },
+  "author": "jakubbt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakubbt/jakubbt-ui/issues"
+  },
+  "homepage": "https://github.com/jakubbt/jakubbt-ui#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@storybook/addon-actions": "^6.3.10",
+    "@storybook/addon-essentials": "^6.3.10",
+    "@storybook/addon-links": "^6.3.10",
+    "@storybook/react": "^6.3.10",
+    "@storybook/preset-create-react-app": "^3.2.0",
+    "babel-loader": "^8.2.2"
+  }
+}
