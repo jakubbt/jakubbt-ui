@@ -1,13 +1,14 @@
 {
   "name": "jakubbt-ui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "My first published npm package this will be.",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "rm -rf build && babel src --out-dir build --copy-files && babel package.json -d build --copy-files"
+    "build": "rm -rf build && babel src --out-dir build --copy-files && babel package.json -d build --copy-files",
+    "deploy": "npm run build && cd build && npm publish"
   },
   "repository": {
     "type": "git",
